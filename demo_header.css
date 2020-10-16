@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+  
+}
+/* phan header */
+.header{
+    height: 170px;
+    width: 100%;
+    position: fixed;
+    background-color: #009CD7;
+    text-align: center;
+    
+}
+.header_left{
+  float: left;
+ margin-top: 45px;
+ font-size: 70%;
+}
+.header_right{
+    float: right;
+    margin-top: 45px;
+ font-size: 70%;
+}
+.header_themes{
+    height: 60px;
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+   
+background-color: ivory;
+
+}
+
+.header .icon{
+    float: left;
+    display: flex;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    
+  
+}
+.header i{
+    margin-left: 15px;
+  margin-right: 15px;
+ font-size: 35px;
+}
+.header img{
+    height: 120px;
+    width: 450px;
+}
+.header_themes a{
+    margin-top: 50px;
+    font-family:Tahoma;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 55px;
+    margin-left: 20px;
+}
+.header_left .dropdown {
+    float: left;
+    background-color:#009CD7;
+    color: cornsilk;
+    margin-top: 65px;
+    margin-left: -300px;
+    width: 300px;
+    height: 1800px;
+
+   
+  
+    
+    
+
+}
+.header_left .dropdown ul{
+   height: 1000px;
+   width: 100px;
+}
+.header_left .dropdown  a{
+  
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 30px;
+    color: cornsilk;
+    margin-top: 0px;
+ margin-left: 30px;
+ text-align: center;
+   
+
+    
+}
+.header_left .dropdown li{
+    list-style: none;
+    height: 200px;
+   width: 300px;
+   margin-left: 0px;
+   margin-top: -22px;
+  
+  
+   
+}
+
+
+
+/* het phan header */
+
+
+
+/* phan hieu ung hover */
+.header_left #drop{
+    position: absolute;
+}
+.header_left .dropdown{
+    position: relative;;
+    display: none;
+}
+.header_left #drop:hover .dropdown{
+  display: inline-block;
+    
+}
+
+.header_left .dropdown li div:hover{
+   
+    background-color: #006fd7;
+
+   height: 70px;
+    margin-left: 100px;
+   transition: 1s;
+   border-radius: 10px;
+  
+    
+}
+/* Search */
+.button {
+    background-color: #006fd7;
+   border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 0px;
+    height: 78px;
+    width: 650px;
+    cursor: pointer;
+  }
+.header_right #search{
+    position: absolute;
+    margin-left: -220px;
+}
+.header_right #search .drop_1{
+    display: none;
+    position: relative;
+    background-color: chartreuse;
+    height:300px;
+    width: max-content;
+}
+.header_right #search:hover{
+    border: none;
+}
+
+.header_right #search:hover i{
+    display: none;
+}
+.header_right #search:hover .drop_1{
+    display: inline;
+    width:  300px;
+    
+}
